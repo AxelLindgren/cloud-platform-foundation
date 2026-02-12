@@ -60,7 +60,7 @@ After apply, Terraform will output:
 ```bash
 app_url = http://<public-ip>:8000/health
 ```
-Kubernetes (Local Cluster)
+## Kubernetes (Local Cluster)
 
 Start Minikube:
 ```bash
@@ -84,7 +84,7 @@ Expose the service:
 minikube service portfolio-service
 ```
 
-##CI Pipeline
+## CI Pipeline
 
 On every push:
 
